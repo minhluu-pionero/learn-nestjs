@@ -9,7 +9,11 @@ import {
   Query,
   UseGuards,
 } from '@nestjs/common'
-import { ApiBearerAuth, ApiQuery, ApiTags } from '@nestjs/swagger'
+import {
+  ApiBearerAuth,
+  ApiQuery,
+  ApiTags
+} from '@nestjs/swagger'
 import { JwtGuard } from 'src/auth/guard'
 import { PAGE_SIZE } from 'src/utils/constant'
 import { ArticleService } from './article.service'

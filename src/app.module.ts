@@ -7,6 +7,7 @@ import { BookmarkModule } from './bookmark/bookmark.module'
 import { PrismaModule } from './prisma/prisma.module'
 import { UserModule } from './user/user.module'
 import { ArticleModule } from './article/article.module';
+import { UploadModule } from './upload/upload.module';
 
 @Module({
   imports: [
@@ -19,6 +20,7 @@ import { ArticleModule } from './article/article.module';
     PrismaModule,
     ArticleCategoryModule,
     ArticleModule,
+    UploadModule,
   ],
 })
 export class AppModule {}
